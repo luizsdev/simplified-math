@@ -1,0 +1,20 @@
+{
+  "name": "simplified-math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizsdev/simplified-math.git"
+  },
+  "author": "Luiz Sanches <“luizsdev@gmail.com”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizsdev/simplified-math/issues"
+  },
+  "homepage": "https://github.com/luizsdev/simplified-math#readme"
+}
