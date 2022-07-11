@@ -1,10 +1,8 @@
-  /**
-   *
-   * @param decimals Amount of decimals after the comma, `defaults` to 2
-   *
-   */
-  export const pi = (decimals = 2) => {
-    if (decimals) return Math.PI.toFixed(decimals);
+/**
+* @param  decimals Amount of decimals after the comma
+*/
+export const pi = (decimals?: number) => {
+  if (decimals) return Number(Math.PI.toFixed(decimals));
 
-    return Math.PI;
-  };
+  return Math.PI;
+};
