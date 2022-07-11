@@ -1,1 +1,1 @@
-export declare const pi: () => void;
+export declare const pi: (decimals?: number) => number;
