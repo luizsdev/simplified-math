@@ -2,10 +2,11 @@
   "name": "simplified-math",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"tsc"
+    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/sample.ts\" -e ts",
+    "build": "tsc --declaration"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/luizsdev/simplified-math/issues"
   },
-  "homepage": "https://github.com/luizsdev/simplified-math#readme"
+  "homepage": "https://github.com/luizsdev/simplified-math#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
 }
